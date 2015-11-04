@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">LeJarApp</string>
+
+    <string name="title_random">Random</string>
+    <string name="title_balance">Balance</string>
+    <string name="title_history">My History</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="total_balance_label">Total Balance</string>
+    <string name="todays_personal_balance_label">Today\'s Personal Balance</string>
+    <string name="category_label">Category</string>
+    <string name="paid_label">Paid</string>
+    <string name="unpaid_label">Unpaid</string>
+    <string name="rootPath">http://le-jar-service.herokuapp.com</string>
+
+    <string name="nav_item_attachment">Random</string>
+    <string name="nav_item_images">Balance</string>
+    <string name="nav_item_location">My History</string>
+    <string name="nav_sub_menu">Administration</string>
+    <string name="nav_sub_menu_item01">Approve</string>
+    <string name="nav_sub_menu_item02">Maintenance</string>
+    <string name="drawer_header_text">Le Jar App</string>
+    <string name="second_activity_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur diam id aliquam scelerisque. Donec ultrices lacus vel dignissim pharetra. Vivamus pharetra augue quis rhoncus placerat. Sed ultricies at risus non cursus. Nam rutrum leo nec placerat consectetur. Vestibulum feugiat eleifend diam, nec interdum augue tincidunt sit amet. Praesent feugiat est auctor lacus consectetur, vitae pellentesque dolor laoreet.</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="default_zero_value">$0.00</string>
+    <string name="welcome_message">Welcome to LeJarApp</string>
+    <string name="choose_user">Choose who you are</string>
+    <string name="logout">Logout</string>
+    <string name="exit">Exit</string>
+</resources>

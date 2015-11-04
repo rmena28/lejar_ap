@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="22-10-2015"
+        android:id="@+id/textview_history_date"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$75"
+        android:id="@+id/textview__history_amount"
+        android:layout_below="@+id/textview_history_date"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ramon Mena"
+        android:id="@+id/textview__history_approved_by"
+        android:layout_below="@+id/textview__history_amount"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unpaid"
+        android:id="@+id/textview__history_status"
+        android:layout_below="@+id/textview__history_approved_by"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

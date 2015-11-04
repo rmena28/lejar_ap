@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/welcome_label_login"
+        android:layout_width="wrap_content"
+        android:text="@string/welcome_message"
+        android:textSize="30sp"
+        android:layout_marginLeft="@dimen/padding_left_row"
+        android:layout_marginRight="16dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="88dp" />
+    <TextView
+        android:id="@+id/user_label_login"
+        android:layout_width="wrap_content"
+        android:text="@string/choose_user"
+        android:textSize="20sp"
+        android:layout_marginLeft="@dimen/padding_left_row"
+        android:layout_marginRight="16dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/padding_left_row"
+        android:layout_marginRight="16dp"
+        android:layout_below="@id/user_label_login"
+        android:id="@+id/list_view_users"
+
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:minWidth="88dp"
+        android:text="Enter"
+        android:elevation="2dp"
+        android:id="@+id/button_login"
+        android:onClick="doEnterApp"
+        android:layout_below="@id/list_view_users"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/random_content_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="menasoft.lejarapp.fragments.RandomFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:id="@+id/textview_random"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/title_random" />
+
+
+
+        <Button
+            android:id="@+id/generate_random_button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="doGenerateRandom"
+            android:text="Generate Random"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>
